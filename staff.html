@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="emailvalidation.css">
-  
+    <link rel="stylesheet" href="staff.css">
 </head>
 <body>
     <div class="container">
-        <h2><center>Login</center></h2>
+        <img src="image.png" alt="Profile Photo" class="profile-photo">
+        <h2><center>Staff Login</center></h2>
         <form id="loginForm">
             <label><b>Email</b></label>
             <input type="email" id="email" placeholder="Email">
             <label><b>Password</b></label>
             <input type="password" id="password" placeholder="Password">
-            <button type="submit">Login</button>
+            <br>
+            <br>
+            <div class="button-container">
+                <button type="button" class="register">Register</button>
+                <button type="submit" class="login">Login</button>
+            </div>
             <p class="error" id="error"></p>
         </form>
     </div>
-<script src="emailvalidation.js"></script>
+    <script src="staff.js"></script>
 </body>
 </html>
